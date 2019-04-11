@@ -4,12 +4,12 @@ import Vapor
 public func routes(_ router: Router) throws {
     // Basic "It works" example
     router.get { req in
-        return "It works!"
+        return "It was very simple to run this app!"
     }
     
     // Basic "Hello, world!" example
     router.get("hello") { req in
-        return "Hello, world!"
+        return "Hello, my world!"
     }
 
     // Example of configuring a controller
